@@ -6,20 +6,20 @@ For personal development, I challenged myself to think of some potential problem
 ## Problems with the strategy
 
 - No fundamental influencers are included; a stock may rapidly rise because of overwhelmingly positive financial reports or media coverage. These stocks may not revert to their average value.
-- No purchase variance between the most significant outlier stocks VS stanard outlier stocks
-- Overall market picture is not viewed / lack of safety net; index could be rapidly declining and we will continue to purchase stocks
+- No purchase variance between the most significant outlier stocks VS standard outlier stocks
+- Overall market picture is not viewed / lack of safety net; index could be rapidly growing and we will continue to short stocks
 
 ## Improvements to the strategy
 
 - Link to company financial reporting to get a better sense if the change is technical (in which case our algorithm is suitable) or fundamental
-- Create a scaled purchase amount; the most extreme 'high' return stocks should command a large purchase amount
+- Create a scaled purchase amount; the most extreme 'high' return stocks should command a larger purchase amount
 - Create a dynamic amount of buy/short stocks; in a rising market, we will trade more declining stocks
-- Adjust the algorithm to purchase a value amount (fractional shares) rather than multiples of shares, allowing Dollar Cost Averaging to be utilised.
+- Adjust the algorithm to purchase a value amount (fractional shares) rather than multiples of shares, allowing Dollar Cost Averaging to be utilised
 
 ## Improvements to the algorithm
 
-- Create a user input prompt that allows them to choose how many shares, how many top/bottom stocks and which index
-- Convert the algorithm into a script that automatically runs
+- Create a user input prompt that allows them to choose how many shares, how many top/bottom stocks and which index to use
+- Convert the algorithm into a script that automatically runs just before the market close
 - Add a 'safety' net; some stocks may only increase marginally (e.g. by 0.000001%), but may appear 'high' if the overall index is performing poorly
 
 ## Concluding thoughts
